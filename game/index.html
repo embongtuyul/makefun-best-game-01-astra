@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Astra: Keeper of the Meridian</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main id="game-shell">
+<canvas id="field" width="1280" height="720" aria-label="Astra defense game"></canvas>
+<div id="controls" aria-label="Game controls">
+<button data-action="build" data-type="sunwell">1 Sunwell · 65</button>
+<button data-action="build" data-type="prism">2 Prism · 90</button>
+<button data-action="build" data-type="lance">3 Lance · 80</button>
+<button data-action="build" data-type="ward">4 Ward · 70</button>
+<button data-action="upgrade">U Upgrade</button>
+<button data-action="sell">X Sell</button>
+<button data-action="wave">Space Launch</button>
+<button data-action="pause">P Pause</button>
+<button data-action="speed">F Speed</button>
+<button data-action="mute">M Sound</button>
+</div>
+</main>
+<script type="module" src="js/game.js"></script>
+</body>
+</html>
